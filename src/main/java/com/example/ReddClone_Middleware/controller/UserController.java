@@ -20,7 +20,7 @@ public class UserController {
 
     @PostMapping("/addUser")
     public ResponseEntity<String> addPerson(@RequestBody User user){
-        repo.save(user);
+//        repo.save(user);
         String responseMessage = "User added successfully";
 
         return ResponseEntity.status(HttpStatus.CREATED)

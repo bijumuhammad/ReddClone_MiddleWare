@@ -1,7 +1,9 @@
 package com.example.ReddClone_Middleware.model;
 
-import jakarta.persistence.*;
+//import jakarta.persistence.*;
 import lombok.Data;
+
+import javax.persistence.*;
 
 @Data
 @Entity
